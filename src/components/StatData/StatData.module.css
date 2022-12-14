@@ -1,0 +1,16 @@
+.item {
+  width: calc(100% / 5);
+  padding: 20px 0;
+  font-weight: bolder;
+  color: white;
+}
+
+.item span {
+  display: block;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.percentage {
+  font-size: 28px;
+}

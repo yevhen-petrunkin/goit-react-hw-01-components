@@ -1,0 +1,14 @@
+.statistics {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.title {
+  margin: 0;
+  padding: 50px 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: grey;
+  background-color: rgba(128, 128, 128, 0.317);
+}
