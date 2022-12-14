@@ -26,10 +26,14 @@ const Transactions = ({ items }) => {
 };
 
 Transactions.propTypes = {
-  id: PropTypes.string.isRequired,
-  type: PropTypes.string.isRequired,
-  amount: PropTypes.string.isRequired,
-  currency: PropTypes.string.isRequired,
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      type: PropTypes.string.isRequired,
+      amount: PropTypes.string.isRequired,
+      currency: PropTypes.string.isRequired,
+    })
+  ),
 };
 
 export default Transactions;
